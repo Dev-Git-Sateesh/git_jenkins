@@ -1,1 +1,6 @@
-Jenkins is an open source automation server. It helps automate the parts of software development related to building, testing, and deploying, facilitating continuous integration, and continuous delivery.
+#!/usr/bin/bash
+
+touch jenkins_file.log
+mv jenkins_file.log /home/ubuntu
+cd /home/ubuntu
+chmod 777 jenkins_file.log
